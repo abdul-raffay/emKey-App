@@ -1,0 +1,60 @@
+{
+  "name": "emKey_App",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.0",
+    "@react-native-community/datetimepicker": "^3.0.2",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/netinfo": "^5.9.7",
+    "@react-native-community/progress-bar-android": "^1.0.3",
+    "@react-native-community/progress-view": "^1.1.1",
+    "@react-native-community/segmented-control": "^2.1.2",
+    "@react-native-community/viewpager": "^4.1.6",
+    "immutable": "^4.0.0-rc.12",
+    "lottie-ios": "^3.1.8",
+    "lottie-react-native": "^3.5.0",
+    "moment": "^2.29.0",
+    "moment-range": "^4.0.2",
+    "pod-install": "^0.1.12",
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-calendars": "^1.403.0",
+    "react-native-device-info": "^6.0.4",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-maps": "^0.27.1",
+    "react-native-navigation": "^7.0.0",
+    "react-native-navigation-hooks": "^6.2.0",
+    "react-native-paper": "^4.2.0",
+    "react-native-permissions": "^2.2.1",
+    "react-native-pod": "^1.12.1",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-share": "^3.8.3",
+    "react-native-shimmer": "^0.6.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-tab-view": "^2.15.1",
+    "react-native-text-input-mask": "^2.0.0",
+    "react-native-vector-icons": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
